@@ -4,7 +4,6 @@ body{
 	border-top: 5px solid #7e7e7e;
 	color: #8f8f8f;
 	font: 12px Tahoma sans-serif;
-	line-height: 18px;/*не общая*/
 	line-height: 18px;
 	margin: 0;
 	min-width: 975px;
@@ -13,7 +12,6 @@ input[type="text"]{		/*Селектор Атрибута*/
 	border: 1px solid #e7e7e7;
 	background-color: #f3f3f3;
 	color: #b2b2b2;
-	height: 30px;/*32 показал photoshop*/
 	height: 30px;
 	padding: 0 10px;
 	vertical-align: top;
@@ -38,10 +36,8 @@ p{
 
 }
 header{
-	padding: 20px 0;/*в photoshop 26px_27px*/
 	padding: 20px 0;
 }
-/*Лучше по идентификатору, селектор-атрибута*/
 /*Можно по идентификатору,*/
 /*Но если будет несколько серчей=>одно из решений это селектор атрибута */
 form[name="search"]{
@@ -241,7 +237,6 @@ footer a{
 	/*padding-right: 15px;*/
 }
 #sitemap div{
-	display: inline-block;/*Чтобы ширина блочного <a> равнялась ширине его текста.*/
 	display: inline-block;/*Чтобы блочные <a> не занимали всю ширину своего родителя 
 div#sitemap.*/
 }
