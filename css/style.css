@@ -101,8 +101,6 @@ aside{
 	list-style-type: square;
 	border-top: 1px solid #e7e7e7;
 }
-/*псевдоклас необходим, чтобы граница у элементов заданная через св-во outline,
-не выходила за рамки своего родителя*/
 .aside-menu li:first-child{
 	border:none;
 }
@@ -192,6 +190,8 @@ figure figcaption span{
 .team-row figure + figure{
 	margin-left: 44px;
 }
+/*псевдоклас необходим, чтобы граница у элементов заданная через св-во outline,
+не выходила за рамки своего родителя*/
 .team-row figure:first-child{
 	margin-left: 1px;
 }
